@@ -32,9 +32,9 @@ int main()
 	cout << sum(1, 2) << endl;
 	cout << subtract(1, 2) << endl;
 
-	int b = 5; 
+	int b = 6; 
 	increment(b);
-	cout << b << "This prints 6 because I passed a reference instead of a value." << endl;
+	cout << b << "This prints 7 because I passed a reference instead of a value." << endl;
 
 	countdown(0);
 	countdown(10);
