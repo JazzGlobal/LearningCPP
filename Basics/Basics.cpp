@@ -36,12 +36,14 @@ int main()
 	increment(b);
 	cout << b << "This prints 7 because I passed a reference instead of a value." << endl;
 
+	//The Type for these calls have been inferred by the compiler.
 	cout << sum(1.1,2.2) << endl;
 	cout << sum(1, 2) << endl; 
 	cout << subtract(1.111, 2.222) << endl;
-	cout << subtract(true, true) << endl; 
 	//This works because "False" = 0 and "True" = 1!
-	//The Type for these calls have been inferred by the compiler.
+	cout << subtract(true, true) << endl; 
+
+
 	countdown(0);
 	countdown(10);
 }
