@@ -7,12 +7,12 @@
 using namespace std; 
 //Must declare functions before they are called.
 
-template <class SomeType>
-SomeType sum(SomeType a, SomeType b) {
+template <class T>
+T sum(T a, T b) {
 	return a + b;
 }
-template <class SomeType>
-SomeType subtract(SomeType a, SomeType b) {
+template <class T>
+T subtract(T a, T b) {
 	return a - b;
 }
 
